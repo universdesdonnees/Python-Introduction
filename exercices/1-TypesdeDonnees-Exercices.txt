@@ -34,4 +34,3 @@ Utilisez une compréhension de liste pour créer une liste de tous les nombres p
 
 ## 7. Conversion de Température
 À partir d'une liste de températures en degrés Celsius, utilisez une compréhension de liste pour créer une liste des températures converties en degrés Fahrenheit.
-
