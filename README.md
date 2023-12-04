@@ -60,6 +60,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
 3. **Lecture et écriture de fichiers.**
    
    Techniques pour la manipulation de fichiers en Python, y compris la lecture, l'écriture et les opérations sur les fichiers.
+     - **Projet 4 : Trieur de fichiers**
 
 4. **Modules et Bibliothèques**
    

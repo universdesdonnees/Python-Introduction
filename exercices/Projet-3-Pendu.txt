@@ -1,0 +1,24 @@
+Projet 3 : Pendu
+
+## Étape 1 : Message de Bienvenue et Préparation du Jeu
+Affichez un message de bienvenue pour le joueur, expliquant qu'il va jouer au jeu du pendu. Choisissez un mot secret (vous pouvez le sélectionner aléatoirement dans une liste de mots). Affichez des tirets `_` pour chaque lettre du mot secret, représentant les lettres à deviner.
+
+## Étape 2 : Demandez une Lettre au Joueur
+Invitez le joueur à saisir une lettre. Vérifiez que la saisie est une lettre unique et non déjà proposée. Si la saisie n'est pas valide, demandez à nouveau au joueur de saisir une lettre.
+
+## Étape 3 : Vérifiez la Lettre et Mettez à Jour le Jeu
+Vérifiez si la lettre saisie est dans le mot secret. Si oui, mettez à jour les tirets `_` pour montrer toutes les occurrences de cette lettre. Si non, augmentez le nombre d'erreurs et dessinez une partie supplémentaire du pendu.
+
+## Étape 4 : État du Jeu et Conditions de Fin
+- Affichez l'état actuel du mot (avec les lettres devinées et les tirets).
+- Si le joueur a deviné toutes les lettres du mot, il gagne. Affichez un message de félicitations.
+- Si le joueur atteint le nombre maximum d'erreurs permises (par exemple, 6), le jeu se termine et le joueur perd. Affichez le mot secret et un message indiquant la défaite.
+
+## Étape 5 : Continuer ou Quitter
+- Après chaque tentative (qu'elle soit correcte ou non), demandez au joueur s'il souhaite continuer à jouer ou quitter.
+- Si le joueur souhaite continuer, reprenez à l'Étape 2. Sinon, terminez le jeu.
+
+## Améliorations Possibles
+- **Gestion des Erreurs de Saisie** : Assurez-vous de gérer correctement toute saisie incorrecte de la part du joueur (comme des chiffres, des caractères spéciaux ou des saisies multiples).
+- **Diversification des Mots** : Utilisez une grande liste de mots pour rendre le jeu plus intéressant et moins répétitif.
+- **Niveaux de Difficulté** : Proposez différents niveaux de difficulté (par exemple, en limitant le nombre d'erreurs permises ou en utilisant des mots plus longs et plus complexes pour les niveaux supérieurs).
