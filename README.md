@@ -1,6 +1,18 @@
-# README - Python Introduction
+# Python Introduction
 
-## Table des Matières
+Bienvenue dans mon cours pour apprendre le langage de programmation `Python`.
+Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser Python, 
+un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus.
+
+![Langage de programmation Python](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1920px-Python_logo_and_wordmark.svg.png)
+
+## À propos du Cours
+
+Ce cours est structuré pour aider les débutants à comprendre et à utiliser Python efficacement.
+Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exercices pour tester vos connaissances et compétences.
+
+### Contenu du Cours : [Cours](cours/cours.ipynb)
+
 1. **C’est quoi Python ?**
    
    Introduction au langage de programmation Python, son histoire, ses caractéristiques principales et pourquoi il est si populaire.
@@ -57,4 +69,18 @@
    
    Conseils et astuces pour écrire du code propre, lisible, et efficace en Python.
 
----
+
+### Exercices
+
+Chaque section du cours est accompagnée d'exercices pratiques pour renforcer l'apprentissage. 
+Les exercices sont disponibles dans le dossier `/exercices`.
+
+## Comment Utiliser ce Dépôt
+
+- Clonez ce dépôt sur votre machine locale.
+- Installez R et RStudio pour suivre les leçons et faire les exercices.
+- Parcourez les dossiers de leçons et commencez votre apprentissage.
+
+## Contact
+
+Pour toute question ou suggestion, n'hésitez pas à me contacter via [mcherifaluron@universdesdonnees.fr].
