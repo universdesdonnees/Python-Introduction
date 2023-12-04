@@ -1,0 +1,37 @@
+######### Exercices 1
+
+## 1. Compression de Chaîne
+Écrivez un programme qui compresse une chaîne en remplaçant les séquences de caractères répétés par le caractère suivi du nombre de répétitions. 
+Exemple, "aabcccccaaa" deviendrait "a2b1c5a3".
+! Si la chaîne compressée n'est pas plus petite que l'originale, retournez la chaîne originale.
+
+## 2. Anagrammes
+Écrivez un programme qui détecte si deux chaînes sont des anagrammes l'une de l'autre (c'est-à-dire qu'elles contiennent les mêmes lettres dans un ordre différent).
+exemples :
+Café – Face
+Trousses – Roustes
+Arbre – Barre
+Désir – Rides
+Poires – Proies
+César – Sacré 
+Verre – Rêver
+Migraine – Imaginer
+Chien – Niche – Chine
+Silence – Enclise
+Réussite – Trieuses- Tireuses
+
+## 3. Somme Zéro
+A partir d'une liste de nombres, trouvez un sous-ensemble de nombres dans une liste dont la somme est égale à zéro, s'il existe.
+
+## 4. Plus Longue Séquence Croissante
+A partir d'une liste de nombres et trouvez la plus longue sous-séquence croissante dans cette liste.
+
+## 5. Mots sans 'e'
+À partir d'une liste de mots, utilisez une compréhension de liste pour créer une nouvelle liste de mots qui ne contiennent pas la lettre 'e'.
+
+## 6. Nombres Premiers
+Utilisez une compréhension de liste pour créer une liste de tous les nombres premiers entre 2 et 100.
+
+## 7. Conversion de Température
+À partir d'une liste de températures en degrés Celsius, utilisez une compréhension de liste pour créer une liste des températures converties en degrés Fahrenheit.
+
