@@ -58,5 +58,3 @@
    Conseils et astuces pour écrire du code propre, lisible, et efficace en Python.
 
 ---
-
-Ce README offre un guide complet pour les débutants qui souhaitent apprendre Python, couvrant tous les aspects fondamentaux du langage ainsi que des projets pratiques pour appliquer les connaissances acquises.
