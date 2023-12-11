@@ -1,0 +1,101 @@
+Exercice 1 : Pyramide de symboles
+A partir d'une variable 'symbole' et une variable 'taille', créez une pyramide avec ce symbole, de la hauteur du nombre contenu dans la variable 'taille'.
+
+Dans cet exemple-ci, nous allons donc afficher une pyramide de dollars ($) de hauteur 10.
+
+Votre script devra donc afficher :
+
+         $ 
+        $ $ 
+       $ $ $ 
+      $ $ $ $ 
+     $ $ $ $ $ 
+    $ $ $ $ $ $ 
+   $ $ $ $ $ $ $ 
+  $ $ $ $ $ $ $ $ 
+ $ $ $ $ $ $ $ $ $ 
+$ $ $ $ $ $ $ $ $ $
+
+Exercice 2 : Cumul des Valeurs d'une Liste
+
+Vous devez créer une fonction `cumul_valeurs(liste)` qui prend une liste de nombres en paramètre et retourne une nouvelle liste. Chaque élément de cette nouvelle liste est la somme de tous les éléments précédents de la liste originale (y compris l'élément actuel).
+
+1. Si la liste en entrée est vide, retournez une liste vide.
+2. Si la liste contient des éléments, chaque élément de la liste de sortie doit être la somme cumulative des éléments de la liste d'entrée jusqu'à cet index.
+3. Vous ne devez pas modifier la liste originale.
+
+Exemple :
+
+- Entrée : `[1, 2, 3, 4]`
+- Sortie : `[1, 3, 6, 10]`
+
+Exercice 3 : Statistiques des Salaires et Primes
+
+Vous travaillez dans une entreprise où chaque salarié reçoit un salaire mensuel et une prime. Votre tâche est d'analyser les données des salaires et des primes pour trouver :
+
+1. Les salariés qui ont un salaire d'au moins 3000 euros par mois.
+2. Les salariés qui ont reçu une prime d'au moins 250 euros ce mois-ci.
+3. Les salariés dont la prime représente au moins 6% de leur salaire.
+
+Définissez la fonction statistiques_salaires(personnes, salaires, primes).
+
+Données en Entrée
+
+- `personnes` : Liste des noms des salariés.
+- `salaires` : Liste des salaires mensuels des salariés (en euros).
+- `primes` : Liste des primes mensuelles des salariés (en euros).
+
+Sorties Attendues
+
+- Liste des salariés avec un salaire d'au moins 3000 euros.
+- Liste des salariés avec une prime d'au moins 250 euros.
+- Liste des salariés dont la prime est au moins 6% de leur salaire.
+
+Testez sur :
+
+# Liste des noms des salariés
+personnes = ["Alice", "Bob", "Charlie", "Diana", "Ethan", "Fiona", "George"]
+
+# Correspondant à chaque salarié, leur salaire mensuel
+salaires = [3200, 2900, 3050, 2700, 4200, 2500, 3800]
+
+# Correspondant à chaque salarié, leur prime mensuelle
+primes = [200, 300, 180, 350, 400, 260, 500]
+
+
+Exercice 4: Le Labyrinthe
+
+Objectif : Créer un jeu de labyrinthe où le joueur doit naviguer à travers pour atteindre une sortie.
+
+Description :
+1. Génération du Labyrinthe : Écrivez une fonction `generer_labyrinthe(taille)` qui crée un labyrinthe de taille `n x n`. Chaque cellule du labyrinthe est accessible ou non, déterminé de manière aléatoire.
+
+Définissez une matrice comme dans cet exemple pour le labyrinthe :
+
+matrice = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Pour pacourir la matrice
+for i in range(len(matrice)):       # Boucle à travers les lignes
+    for j in range(len(matrice[i])):  # Boucle à travers les colonnes
+        element = matrice[i][j]
+        print(f"Élément {element} à la position ({i}, {j})")
+
+
+
+2. Affichage du Labyrinthe : Créez une fonction `afficher_labyrinthe(labyrinthe)` qui affiche le labyrinthe sur la console. Utilisez différents caractères pour les murs, les chemins libres, la position du joueur, et la sortie.
+
+3. Mouvement du Joueur : Implémentez une fonction `deplacer_joueur(labyrinthe, position, mouvement)` qui déplace le joueur dans le labyrinthe. Le joueur ne peut pas traverser les murs et ne peut se déplacer que dans les limites du labyrinthe.
+
+4. Trouver la Sortie : Le joueur doit naviguer à travers le labyrinthe pour trouver la sortie. Écrivez une fonction `trouver_sortie(labyrinthe, position_joueur)` qui détermine si le joueur a atteint la sortie.
+
+5. Jeu Principal : Créez une fonction `jouer()` qui utilise toutes les fonctions ci-dessus pour créer une expérience de jeu interactive. Le joueur peut entrer des commandes pour se déplacer dans le labyrinthe.
+
+Défis supplémentaires :
+- Ajoutez un système de score basé sur le nombre de mouvements effectués.
+- Intégrez des pièges ou des bonus dans le labyrinthe.
+- Créez des niveaux de difficulté variés, où la taille du labyrinthe et la complexité augmentent.
+
