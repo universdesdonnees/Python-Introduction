@@ -59,7 +59,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
      
       - **Exercices 2**
        
-       Une série d'exercices pour pratiquer la manipulation des structures séquentielles.
+       Une série d'exercices pour pratiquer la programmation de fonctions.
 
 3. **Lecture et écriture de fichiers.**
    
