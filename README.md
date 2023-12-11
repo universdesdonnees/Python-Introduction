@@ -56,6 +56,10 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - **2.5. Fonctions : définition et appel.**
      
      Comment définir et utiliser des fonctions en Python, un élément clé de la programmation structurée.
+     
+      - **Exercices 2**
+       
+       Une série d'exercices pour pratiquer la manipulation des structures séquentielles.
 
 3. **Lecture et écriture de fichiers.**
    
