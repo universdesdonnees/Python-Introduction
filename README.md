@@ -26,8 +26,12 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
   - 2.5. Fonctions : définition et appel
     - Exercices 2      
 - 3. Gestion des exceptions
-    -
-    -
+    - 3.1 Définition
+    - 3.2 Gestion des exceptions
+      - 3.2.1 Try/ Except
+      - 3.2.2 Finally
+      - 3.2.3 Else
+    - 3.3 Assertions
     - Exercices 3
 - 4. Lecture et écriture de fichiers
 - 5. Modules et Bibliothèques
