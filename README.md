@@ -13,23 +13,23 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
 
 ### Contenu du Cours : [Cours](cours/cours.ipynb)
 
-- 1. [C’est quoi Python ?]
-- 2. [Les Fondamentaux de Python]
-    - 2.1. [Variables (types natifs) et opérations]
-    - 2.2. [Commentaires et affichage]
-    - 2.3. [Structures de contrôle : opérateurs, conditions, boucles]
+- 1. C’est quoi Python ?
+- 2. Les Fondamentaux de Python
+    - 2.1. Variables (types natifs) et opérations
+    - 2.2. Commentaires et affichage
+    - 2.3. Structures de contrôle : opérateurs, conditions, boucles
         - Projet 1 : Juste prix
         - Projet 2 : Casino        
-    - 2.4. [Types de Données (structures séquentielles : chaines de caractères, listes, ensembles, tuples, dictionnaires)]
+    - 2.4. Types de Données (structures séquentielles : chaines de caractères, listes, ensembles, tuples, dictionnaires)
         - Exercices 1
         - Projet 3 : Pendu
-    - 2.5. [Fonctions : définition et appel.]
+    - 2.5. Fonctions : définition et appel
         - Exercices 2      
-- 3. [Gestion des exceptions]
+- 3. Gestion des exceptions
         - Exercices 3
-- 4. [Lecture et écriture de fichiers]
-- 5. [Modules et Bibliothèques]
-- 6. [Bonnes Pratiques en Programmation]
+- 4. Lecture et écriture de fichiers
+- 5. Modules et Bibliothèques
+- 6. Bonnes Pratiques en Programmation
 
 ### Exercices
 
