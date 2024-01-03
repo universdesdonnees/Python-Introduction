@@ -32,6 +32,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
       - 3.2.2 Finally
       - 3.2.3 Else
     - 3.3 Assertions
+    - 3.4 Raise
     - Exercices 3
 - 4. Lecture et écriture de fichiers
 - 5. Modules et Bibliothèques
