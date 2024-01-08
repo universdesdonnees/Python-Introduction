@@ -25,8 +25,16 @@
     - 3.4 Raise
     - Exercices 3
 - 4. Lecture et écriture de fichiers
-- 5. Modules et Bibliothèques
-- 6. Bonnes Pratiques en Programmation
+    - 4.1 Gestion simple des fichiers 
+    - 4.2 Travailler avec différents formats de fichier
+    - Exercices 4
+        - Projet 4 : [Trieur de fichier](https://www.youtube.com/watch?v=EEHZQ9tiWX4&ab_channel=Labinc)
+- 5. Modules essentiels
+    - 5.1 Numpy : Exercices 5
+    - 5.2 Pandas : Exercices 6
+    - 5.3 Matplotlib : Exercices 7
+    - 5.4 Seaborn : Exercices 8
+- 6. Conclusion & Bonnes Pratiques en Programmation
 
 ### Exercices
 
