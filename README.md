@@ -37,7 +37,7 @@ Les exercices sont disponibles ici : **[Exercices](https://github.com/universdes
 ## Comment Utiliser ce Dépôt
 
 - Clonez ce dépôt sur votre machine locale.
-- Installez R et RStudio pour suivre les leçons et faire les exercices.
+- Installez (Python)[https://www.python.org/downloads/] et (VScode)[https://code.visualstudio.com/] pour suivre les leçons et faire les exercices.
 - Parcourez les dossiers de leçons et commencez votre apprentissage.
 
 ## Contact
