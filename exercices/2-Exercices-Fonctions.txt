@@ -63,39 +63,3 @@ salaires = [3200, 2900, 3050, 2700, 4200, 2500, 3800]
 primes = [200, 300, 180, 350, 400, 260, 500]
 
 
-Exercice 4: Le Labyrinthe
-
-Objectif : Créer un jeu de labyrinthe où le joueur doit naviguer à travers pour atteindre une sortie.
-
-Description :
-1. Génération du Labyrinthe : Écrivez une fonction `generer_labyrinthe(taille)` qui crée un labyrinthe de taille `n x n`. Chaque cellule du labyrinthe est accessible ou non, déterminé de manière aléatoire.
-
-Définissez une matrice comme dans cet exemple pour le labyrinthe :
-
-matrice = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-
-# Pour pacourir la matrice
-for i in range(len(matrice)):       # Boucle à travers les lignes
-    for j in range(len(matrice[i])):  # Boucle à travers les colonnes
-        element = matrice[i][j]
-        print(f"Élément {element} à la position ({i}, {j})")
-
-
-
-2. Affichage du Labyrinthe : Créez une fonction `afficher_labyrinthe(labyrinthe)` qui affiche le labyrinthe sur la console. Utilisez différents caractères pour les murs, les chemins libres, la position du joueur, et la sortie.
-
-3. Mouvement du Joueur : Implémentez une fonction `deplacer_joueur(labyrinthe, position, mouvement)` qui déplace le joueur dans le labyrinthe. Le joueur ne peut pas traverser les murs et ne peut se déplacer que dans les limites du labyrinthe.
-
-4. Trouver la Sortie : Le joueur doit naviguer à travers le labyrinthe pour trouver la sortie. Écrivez une fonction `trouver_sortie(labyrinthe, position_joueur)` qui détermine si le joueur a atteint la sortie.
-
-5. Jeu Principal : Créez une fonction `jouer()` qui utilise toutes les fonctions ci-dessus pour créer une expérience de jeu interactive. Le joueur peut entrer des commandes pour se déplacer dans le labyrinthe.
-
-Défis supplémentaires :
-- Ajoutez un système de score basé sur le nombre de mouvements effectués.
-- Intégrez des pièges ou des bonus dans le labyrinthe.
-- Créez des niveaux de difficulté variés, où la taille du labyrinthe et la complexité augmentent.
-

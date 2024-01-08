@@ -1,0 +1,34 @@
+Exercice 1.  Journal Intime Numérique
+   - Demander à l'utilisateur de saisir une entrée de journal.
+   - Ouvrir un fichier en mode écriture.
+   - Écrire l'entrée dans le fichier.
+   - Sauvegarder et fermer le fichier.
+
+Exercice 2. Le Miroir de Texte
+   - Ouvrir et lire le contenu d'un fichier texte quelconque
+   - Inverser le contenu lu (par exemple, avec `reversed()` ou slicing).
+   - Écrire le contenu inversé dans un nouveau fichier.
+
+Exercice 3. Gestion des étudiants
+1. Fonction `saisir()`
+   - Demandez les informations de chaque étudiants (NCIN, NOM, PRENOM, AGE, DECISION).
+   - Écrivez ces informations dans `concours.txt`, séparées par des points-virgules.
+
+2. Fonction `admis()`
+   - Lisez `concours.txt` et sélectionnez les étudiants dont la décision est "admis".
+   - Écrivez les informations de ces étudiants dans `admis.txt`.
+
+3. Fonction `attente()`
+   - Lisez `admis.txt` et sélectionnez les étudiants de moins de 30 ans.
+   - Écrivez les informations (NCIN, NOM, PRENOM) de ces étudiants dans `attente.txt`.
+
+4. Fonction `statistiques(dec)`
+   - Parcourez `concours.txt` et comptez le nombre total de étudiants et le nombre de étudiants pour la décision spécifiée (`dec`).
+   - Calculez et retournez le pourcentage : (Nombre de étudiants `dec` / Nombre total de étudiants) * 100.
+
+5. Fonction `supprimer()`
+   - Lisez `admis.txt` et sélectionnez les étudiants de plus de 30 ans.
+   - Réécrivez `admis.txt` sans ces étudiants.
+
+
+

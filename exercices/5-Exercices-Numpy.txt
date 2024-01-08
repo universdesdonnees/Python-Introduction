@@ -1,0 +1,52 @@
+https://www.w3schools.com/python/numpy/default.asp
+
+#### Exercice 0 : S'échauffer
+Créez un tableau NumPy de valeurs de 0 à 2π divisé en 100 parties.
+Calculez le sinus et le cosinus de ces valeurs.
+Utilisez `np.round()` pour arrondir les résultats à 2 décimales.
+
+### Exercice 1 : Le Jeu du Bingo
+Créez un programme qui génère une carte de bingo 5x5 où chaque cellule contient un nombre aléatoire unique entre 1 et 75. Ensuite, simulez le tirage de numéros aléatoires entre 1 et 75 et marquez les numéros sur votre carte de bingo. Le but est de voir combien de tirages sont nécessaires pour compléter une ligne, une colonne ou une diagonale.
+
+### Exercice 2 : Le Puzzle des Pixels
+Imaginez un tableau NumPy 10x10 rempli de zéros. Écrivez un programme qui change la couleur (valeur) de pixels aléatoires pour créer un motif ou une image. Vous pouvez par exemple essayer de créer un motif en damier ou une forme simple comme un cœur ou une étoile.
+
+### Exercice 3 : Le Labyrinthe
+
+Objectif : Créer un jeu de labyrinthe où le joueur doit naviguer à travers pour atteindre une sortie.
+
+Description :
+1. Génération du Labyrinthe : Écrivez une fonction `generer_labyrinthe(taille)` qui crée un labyrinthe de taille `n x n`. Chaque cellule du labyrinthe est accessible ou non, déterminé de manière aléatoire.
+
+import numpy as np
+import random
+
+def generer_labyrinthe(taille):
+    labyrinthe = np.random.choice([0, 1], size=(taille, taille), p=[0.7, 0.3])
+    labyrinthe[0, 0] = 0  # Point de départ
+    labyrinthe[taille-1, taille-1] = 0  # Sortie
+    return labyrinthe
+
+generer_labyrinthe(10)
+
+2. Affichage du Labyrinthe : Créez une fonction `afficher_labyrinthe(labyrinthe)` qui affiche le labyrinthe sur la console. Utilisez différents caractères pour les murs, les chemins libres, la position du joueur, et la sortie.
+
+3. Mouvement du Joueur : Implémentez une fonction `deplacer_joueur(labyrinthe, position, mouvement)` qui déplace le joueur dans le labyrinthe. Le joueur ne peut pas traverser les murs et ne peut se déplacer que dans les limites du labyrinthe.
+
+4. Trouver la Sortie : Le joueur doit naviguer à travers le labyrinthe pour trouver la sortie. Écrivez une fonction `trouver_sortie(labyrinthe, position_joueur)` qui détermine si le joueur a atteint la sortie.
+
+5. Jeu Principal : Créez une fonction `jouer()` qui utilise toutes les fonctions ci-dessus pour créer une expérience de jeu interactive. Le joueur peut entrer des commandes pour se déplacer dans le labyrinthe.
+
+Défis supplémentaires :
+- Ajoutez un système de score basé sur le nombre de mouvements effectués.
+- Intégrez des pièges ou des bonus dans le labyrinthe.
+- Créez des niveaux de difficulté variés, où la taille du labyrinthe et la complexité augmentent.
+
+### Exercice 4 : Simulation de Population
+Simulez une population de créatures dans un écosystème. Créez un tableau NumPy pour représenter un espace 2D où chaque cellule peut être vide ou contenir une créature. Les créatures peuvent se déplacer, se reproduire ou mourir en fonction de règles simples que vous définissez (par exemple, solitude, surpopulation).
+
+### Exercice 5 : Analyse de Données de Ventes
+Imaginez que vous avez des données de ventes pour différents produits. Les données sont représentées dans un tableau NumPy où chaque ligne est un produit et chaque colonne une semaine de vente. Calculez des statistiques comme les ventes moyennes, le produit le plus vendu, la semaine avec les ventes maximales, etc.
+
+### Exercice 6 : Le Morpion
+Programmez un jeu de morpion simple où deux joueurs entrent leurs coups à tour de rôle. Utilisez un tableau NumPy pour représenter le plateau de jeu (3x3) et vérifiez l'état du jeu après chaque coup pour déterminer le gagnant.
