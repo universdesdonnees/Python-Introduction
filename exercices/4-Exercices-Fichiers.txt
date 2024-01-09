@@ -6,7 +6,7 @@ Exercice 1.  Journal Intime Numérique
 
 Exercice 2. Le Miroir de Texte
    - Ouvrir et lire le contenu d'un fichier texte quelconque
-   - Inverser le contenu lu (par exemple, avec `reversed()` ou slicing).
+   - Inverser le contenu lu avec le slicing.
    - Écrire le contenu inversé dans un nouveau fichier.
 
 Exercice 3. Gestion des étudiants
