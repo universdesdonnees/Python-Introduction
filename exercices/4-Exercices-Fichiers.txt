@@ -2,7 +2,6 @@ Exercice 1.  Journal Intime Numérique
    - Demander à l'utilisateur de saisir une entrée de journal.
    - Ouvrir un fichier en mode écriture.
    - Écrire l'entrée dans le fichier.
-   - Sauvegarder et fermer le fichier.
 
 Exercice 2. Le Miroir de Texte
    - Ouvrir et lire le contenu d'un fichier texte quelconque
