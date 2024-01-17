@@ -15,7 +15,6 @@ Imaginez un tableau NumPy 10x10 rempli de zéros.
 Écrivez un programme qui change la couleur (valeur) de pixels aléatoires pour créer un motif ou une image.
 Vous pouvez par exemple essayer de créer un motif en damier.
 
-
 ### Exercice 3 : Le Labyrinthe
 
 Objectif : Créer un jeu de labyrinthe où le joueur doit naviguer à travers pour atteindre une sortie.
@@ -49,9 +48,14 @@ Défis supplémentaires :
 - Créez des niveaux de difficulté variés, où la taille du labyrinthe et la complexité augmentent.
 
 ### Exercice 4 : Simulation de Population
-Simulez une population de créatures dans un écosystème. 
 Créez un tableau NumPy pour représenter un espace 2D où chaque cellule peut être vide ou contenir une créature. 
-Les créatures peuvent se déplacer, se reproduire ou mourir en fonction de règles simples que vous définissez (par exemple, solitude, surpopulation).
+
+Les créatures peuvent se déplacer, se reproduire ou mourir en fonction de règles simples que vous définissez.
+
+Par exemple, imaginons que chaque creature tire une lettre:
+- "d" elle se déplace dans une case random et disponible (sans autre créature).
+- "r" elle se reproduit et sa valeur augmente de "+1"
+- "m" elle meurt sur le champs
 
 ### Exercice 5 : Analyse de Données de Ventes
 Imaginez que vous avez des données de ventes pour différents produits. 
