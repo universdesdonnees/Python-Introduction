@@ -15,7 +15,7 @@ Tâches :
 1. Ajoutez des super-héros avec leurs attributs (ex : Superman, Iron Man, etc.).
 2. Calculez un score total pour chaque héros en additionnant toutes leurs statistiques.
 3. Trouvez le héros le plus fort et le plus intelligent.
-4. Groupez les héros par score total et affichez les moyennes pour chaque groupe.
+4. Groupez les héros par score total et affichez les moyennes pour chaque groupe. (PAS FAIRE)
 
 Exercice 3 : Le Mystère des Fruits
 Objectif : Pratiquer le slicing, le filtrage, et la manipulation de chaînes.
