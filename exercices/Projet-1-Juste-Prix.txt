@@ -4,7 +4,8 @@ Projet 1 : Le Juste Prix
  les joueurs et leur explique les règles du jeu.
 
 Étape 2 : Générez un nombre aléatoire entre un minimum et un 
-maximum (par exemple, entre 1 et 100). Expliquez que ce nombre sera le 
+maximum (par exemple, entre 1 et 100).
+ Expliquez que ce nombre sera le 
 "juste prix" que les joueurs doivent deviner en indiquant l’intervalle.
 
 Étape 3 : Demandez à l'utilisateur de deviner le juste prix en saisissant un nombre.  
