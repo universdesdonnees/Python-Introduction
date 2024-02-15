@@ -21,7 +21,7 @@ Silence – Enclise
 Réussite – Trieuses- Tireuses
 
 ## 3. Somme Zéro
-A partir d'une liste de nombres, trouvez un sous-ensemble de nombres dans une liste dont la somme est égale à zéro, s'il existe.
+A partir d'une liste de nombres, trouvez un sous-ensemble de nombres consécutifs dans une liste dont la somme est égale à zéro, s'il existe.
 
 ## 4. Plus Longue Séquence Croissante
 A partir d'une liste de nombres et trouvez la plus longue sous-séquence croissante dans cette liste.
