@@ -29,7 +29,28 @@ Exemple :
 - Entrée : `[1, 2, 3, 4]`
 - Sortie : `[1, 3, 6, 10]`
 
-Exercice 3 : Statistiques des Salaires et Primes
+Exercice 3 : devinettes mathématiques
+
+Dans cet exercice, vous allez créer un jeu de devinettes mathématiques où l'utilisateur doit résoudre une série d'opérations arithmétiques. Voici les étapes à suivre :
+
+1. Importation du module random : Commencez par importer le module random, qui sera utilisé pour générer des nombres aléatoires.
+
+2. Définition de la fonction question : Définissez une fonction nommée question. Cette fonction doit :
+   - Choisir aléatoirement deux nombres entiers entre 1 et 100.
+   - Sélectionner aléatoirement une opération parmi l'addition (+), la soustraction (-), la multiplication (*) et la division (/).
+   - Calculer le résultat de l'opération.
+   - Demander à l'utilisateur de deviner le résultat de l'opération.
+   - Renvoyer True si la réponse de l'utilisateur est correcte, sinon False.
+
+3. Initialisation du score et du nombre de questions : 
+Initialisez deux variables : score à 0 pour suivre le nombre de réponses correctes et nb_questions pour définir le nombre de questions à poser à l'utilisateur.
+
+4. Boucle de jeu : Utilisez une boucle for pour poser un nombre prédéfini de questions à l'utilisateur. 
+À chaque itération, appelez la fonction question et mettez à jour le score en conséquence.
+
+5. Affichage du score final : Après avoir terminé toutes les questions, affichez le score final de l'utilisateur.
+
+Exercice 4 : Statistiques des Salaires et Primes
 
 Vous travaillez dans une entreprise où chaque salarié reçoit un salaire mensuel et une prime. Votre tâche est d'analyser les données des salaires et des primes pour trouver :
 

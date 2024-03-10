@@ -1,0 +1,22 @@
+######### Exercices 1
+
+1 Écrivez un programme qui demande à l'utilisateur de saisir les dimensions d'une pièce rectangulaire pour qu'il puisse estimer la quantité de peinture nécessaire pour peindre les murs. 
+Le programme doit calculer et afficher à l'utilisateur la surface totale des murs.
+
+2 Créez un programme interactif qui simule le calcul du prix total des articles dans un magasin. Demandez à l'utilisateur de saisir le prix de chaque article et leur quantité, puis calculez et affichez le total à payer.
+
+3 Développez un programme qui demande à l'utilisateur de saisir une température en degrés Celsius, puis convertissez-la en degrés Fahrenheit et affichez le résultat.
+
+4 Créez un script interactif qui demande à l'utilisateur de saisir son âge, puis affiche un message indiquant le nombre de jours, de minutes et de secondes qu'il a vécu jusqu'à présent.
+
+5 Créez un programme qui permet à l'utilisateur de saisir une liste de noms séparés par des virgules. Le programme doit séparer les noms, les trier par ordre alphabétique, puis les afficher dans l'ordre.
+
+6 Créez un script interactif où l'utilisateur peut saisir ses dépenses quotidiennes et les enregistrer. Utilisez des variables pour calculer le total des dépenses et affichez-le à la fin de la saisie.
+
+7 Développez un programme qui simule un jeu de questions-réponses où l'utilisateur doit répondre à une série de questions à choix multiples. Utilisez des instructions conditionnelles pour vérifier les réponses de l'utilisateur et afficher les résultats à la fin.
+
+8 Développez un programme qui simule un compteur de pas. Demandez à l'utilisateur de saisir le nombre de pas qu'il souhaite effectuer chaque jour pendant une semaine, puis affichez le total à la fin de la semaine.
+
+9 Créez un programme interactif où l'utilisateur peut saisir une série de nombres et choisir parmi une liste d'opérations arithmétiques (addition, soustraction, multiplication, division) pour les combiner. Affichez le résultat final.
+
+10 Créez un programme interactif où l'utilisateur peut saisir une série de nombres et voir comment leur moyenne évolue à chaque nouvel ajout de nombre. Utilisez une boucle pour mettre à jour la moyenne à chaque itération et affichez-la à chaque étape.

@@ -1,0 +1,41 @@
+Exercice 1
+
+Créez un fichier Python nommé operations.py.
+À l'intérieur de ce fichier, définissez des fonctions pour effectuer des opérations mathématiques telles que l'addition, la soustraction, la multiplication et la division.
+
+Dans un autre fichier Python, importez le module operations.py en utilisant l'instruction import.
+Utilisez les fonctions définies dans le module operations.py pour effectuer des opérations mathématiques.
+
+
+Exercice 2
+
+Créez un fichier Python nommé geometry.py.
+Définissez des fonctions dans ce fichier pour calculer l'aire et le périmètre d'un cercle, d'un rectangle et d'un triangle.
+
+Dans un autre fichier Python, importez le module geometry.py.
+
+Utilisez les fonctions définies dans le module geometry.py pour calculer l'aire et le périmètre de différentes formes géométriques.
+
+Exercice 3
+
+Utilisez le module datetime pour afficher la date et l'heure actuelles dans un nouveau fichier Python.
+
+Utilisez le module os pour afficher le répertoire de travail actuel dans le même fichier Python.
+
+Exercice 4
+
+Créez un fichier Python nommé utils.py.
+Définissez des fonctions utilitaires dans ce fichier, telles que factorial().
+Dans un autre fichier Python, importez sélectivement la fonction factorial() depuis le module utils.py.
+Utilisez la fonction factorial() pour calculer la factorielle d'un nombre donné.
+
+Exercice 5
+
+Importez le module math en utilisant un alias dans un nouveau fichier Python.
+Utilisez les fonctions mathématiques du module math, telles que sqrt() pour calculer la racine carrée d'un nombre et log() pour calculer le logarithme naturel d'un nombre.
+
+Exercice 6
+
+Créez un package Python contenant plusieurs modules liés, par exemple, un package finance contenant des modules pour la gestion des finances personnelles.
+Importez le package finance dans un nouveau fichier Python.
+Utilisez les modules du package finance pour effectuer des opérations financières telles que le calcul du montant des intérêts composés.

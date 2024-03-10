@@ -1,4 +1,4 @@
-######### Exercices 1 
+######### Exercices 2
 
 ## 1. Compression de Chaîne
 Écrivez un programme qui compresse une chaîne en remplaçant les séquences de caractères répétés par le caractère suivi du nombre de répétitions. 

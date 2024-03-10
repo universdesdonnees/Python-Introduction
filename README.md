@@ -3,38 +3,61 @@
 
 ## 👉 ICI : [Cours](cours/cours.html)👈
 
-- 1. C’est quoi Python ?
-- 2. Les Fondamentaux de Python
-  - 2.1. Variables (types natifs) et opérations
-  - 2.2. Commentaires et affichage
-  - 2.3. Structures de contrôle : opérateurs, conditions, boucles
-    - Projet 1 : Juste prix
-    - Projet 2 : Casino        
-  - 2.4. Types de Données (structures séquentielles : chaines de caractères, listes, ensembles, tuples, dictionnaires)
-    - Exercices 1
-    - Projet 3 : Pendu
-  - 2.5. Fonctions : définition et appel
-    - Exercices 2      
-- 3. Gestion des exceptions
+## Table des matières📝
+
+1. C’est quoi Python ?
+2. Les Fondamentaux de Python
+    - 2.1. Variables (types natifs) et opérations
+        - 2.1.1 Types de variables
+        - 2.1.2 Conversion de types
+        - 2.1.3 Opérations arithmétiques
+        - 2.1.4 Opérations sur les chaînes de caractères
+        - 2.1.5 Opérations d'affectation composées
+    - 2.2. Commentaires et affichage
+    - 2.3. Structures de contrôle
+        - 2.3.1 Les opérateurs
+        - 2.3.2 Les conditions
+        - 2.3.3 Les boucles
+    - 🤸 Exercices 1
+    - 🚧 Projet 1 : Juste prix
+    - 🚧 Projet 2 : Casino
+    - 2.4. Types de Données
+        - 2.4.1 Les chaines de cacractères
+        - 2.4.2 Les listes
+        - 2.4.3 Les tuples
+        - 2.4.4 Les ensembles
+        - 2.4.5 Les dictionnaires
+    - 🤸 Exercices 2
+    - 🚧 Projet 3 : Pendu
+    - 2.5. Fonctions : définition et appel
+        - 2.5.1 Les paramètres et arguments
+        - 2.5.2 Les types de fonctions
+        - 2.5.3 La portée des variables
+        - 2.5.4 Nombre variable d'arguments
+        - 2.5.5 Les fonctions anonymes : lambda
+        - 2.5.6 Les fonctions et la récursivité
+        - 2.5.7 Générateurs et décorateurs
+    - 🤸 Exercices 3
+3. Gestion des exceptions
     - 3.1 Définition
-    - 3.2 Gestion des exceptions
-      - 3.2.1 Try/ Except
-      - 3.2.2 Finally
-      - 3.2.3 Else
+    - 3.2 Traitement des exceptions
+        - 3.2.1 Try-Except
+        - 3.2.2 Finally
+        - 3.2.3 Else
     - 3.3 Assertions
     - 3.4 Raise
-    - Exercices 3
-- 4. Lecture et écriture de fichiers
-    - 4.1 Gestion simple des fichiers 
+    - 🚧 Projet 2 bis : Casino avec exceptions
+    - 🤸 Exercices 4
+4. Lecture et écriture de fichiers
+    - 4.1 Gestion simple des fichiers
     - 4.2 Travailler avec différents formats de fichier
-    - Exercices 4
-        - Projet 4 : [Trieur de fichier](https://www.youtube.com/watch?v=EEHZQ9tiWX4&ab_channel=Labinc)
-- 5. Modules essentiels
-    - 5.1 Numpy : Exercices 5
-    - 5.2 Pandas : Exercices 6
-    - 5.3 Matplotlib : Exercices 7
-    - 5.4 Seaborn : Exercices 8
-- 6. Conclusion & Bonnes Pratiques en Programmation
+    - 🤸 Exercices 5
+    - 🚧 Projet 4 : Trieur de fichier
+5. Modules et Packages
+    - 🤸 Exercices 6 (en cours)
+6. Bonnes Pratiques en Programmation
+    - 🚧 Projet 5 : Gestionnaire de tâches
+7. Références
 
 ### Exercices
 

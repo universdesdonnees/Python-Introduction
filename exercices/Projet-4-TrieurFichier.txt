@@ -1,31 +1,30 @@
-# Projet 4 : Trieur de Fichiers
+Projet 4 : Trieur de Fichiers
 
-## Objectif
 Créer un script Python qui organise automatiquement les fichiers dans un répertoire donné en les triant dans des sous-dossiers selon leur type (extension).
 
-## Description du Projet
-Le script doit parcourir un répertoire spécifié, identifier le type de chaque fichier à partir de son extension, puis déplacer chaque fichier dans un sous-dossier correspondant à son type.
+Le script doit parcourir un répertoire spécifié, identifier le type de chaque fichier à partir de son extension,
+puis déplacer chaque fichier dans un sous-dossier correspondant à son type.
 
-## Étapes du Projet
+Étapes :
 
-### Étape 1 : Configuration de l'Environnement
-- Importez les modules nécessaires (`os`, `shutil`).
-- Définissez le chemin du répertoire à trier.
+Étape 1 : Configuration de l'Environnement
+ Importez les modules nécessaires (os, shutil).
+ Définissez le chemin du répertoire à trier.
 
-### Étape 2 : Mapping des Extensions aux Dossiers
-- Créez un dictionnaire pour associer les types de fichiers (basés sur l'extension) à des noms de dossiers.
-  - Exemple : `{'jpg': 'Images', 'txt': 'Documents', 'mp3': 'Musiques', ...}`
+Étape 2 : Mapping des Extensions aux Dossiers
+ Créez un dictionnaire pour associer les types de fichiers (basés sur l'extension) à des noms de dossiers.
+ Exemple : `{'jpg': 'Images', 'txt': 'Documents', 'mp3': 'Musiques', ...}`
 
-### Étape 3 : Parcours et Tri des Fichiers
-- Parcourez tous les fichiers du répertoire.
-- Pour chaque fichier :
-  - Obtenez son extension.
-  - Trouvez le dossier correspondant dans le dictionnaire.
-  - Si le dossier n'existe pas, créez-le.
+Étape 3 : Parcours et Tri des Fichiers
+ Parcourez tous les fichiers du répertoire.
+ Pour chaque fichier :
+ Obtenez son extension.
+ Trouvez le dossier correspondant dans le dictionnaire.
+ Si le dossier n'existe pas, créez-le.
 
-### Étape 4 : Déplacement des Fichiers
-- Déplacez chaque fichier dans le sous-dossier correspondant.
-- Gérez les exceptions pour éviter les erreurs lors du déplacement des fichiers.
+Étape 4 : Déplacement des Fichiers
+ Déplacez chaque fichier dans le sous-dossier correspondant.
+ Gérez les exceptions pour éviter les erreurs lors du déplacement des fichiers.
 
-### Étape 5 : Rapport Final
-- Après le tri, affichez un rapport indiquant le nombre de fichiers déplacés et leur répartition dans les différents dossiers.
+Étape 5 : Rapport Final
+ Après le tri, affichez un rapport indiquant le nombre de fichiers déplacés et leur répartition dans les différents dossiers.

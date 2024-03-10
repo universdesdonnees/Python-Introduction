@@ -1,0 +1,49 @@
+Projet 5 : Gestionnaire de Tâches 
+
+Dans ce projet, vous allez créer un gestionnaire de tâches simple.
+
+Le gestionnaire de tâches permettra à l'utilisateur de créer, afficher, mettre à jour et supprimer des tâches.
+
+Fonctionnalités :
+1. Ajout de tâches : L'utilisateur peut ajouter une nouvelle tâche avec une description et une date d'échéance.
+2. Affichage des tâches : L'utilisateur peut afficher toutes les tâches actuelles.
+3. Mise à jour des tâches : L'utilisateur peut mettre à jour la description ou la date d'échéance d'une tâche existante.
+4. Suppression des tâches : L'utilisateur peut supprimer une tâche existante.
+5. Sauvegarde des tâches : Les tâches seront sauvegardées dans un fichier texte pour qu'elles puissent être récupérées ultérieurement.
+
+Étapes du Projet :
+
+1. Création du Programme Principal :
+   - Initialisez un fichier Python pour votre gestionnaire de tâches.
+   - Définissez les fonctions nécessaires pour implémenter les fonctionnalités.
+
+2. Ajout de Tâches :
+   - Demandez à l'utilisateur de saisir une description et une date d'échéance pour une nouvelle tâche.
+   - Ajoutez la tâche à une liste de tâches.
+
+3. Affichage des Tâches :
+   - Parcourez la liste des tâches et affichez chaque tâche avec ses détails.
+
+4. Mise à Jour des Tâches :
+   - Demandez à l'utilisateur de choisir une tâche à mettre à jour.
+   - Permettez-lui de modifier la description ou la date d'échéance de la tâche sélectionnée.
+
+5. Suppression des Tâches :
+   - Demandez à l'utilisateur de choisir une tâche à supprimer.
+   - Supprimez la tâche sélectionnée de la liste des tâches.
+
+6. Sauvegarde des Tâches :
+   - Implémentez une fonction pour sauvegarder les tâches dans un fichier texte.
+   - Chargez les tâches à partir du fichier texte au démarrage du programme, si elles existent.
+
+7. Interface Utilisateur (Optionnel) :
+   - Créez une interface utilisateur plus conviviale en utilisant une bibliothèque comme Tkinter ou PyQt.
+
+Bonus :
+- Ajoutez la possibilité de marquer les tâches comme terminées.
+- Implémentez une fonctionnalité de recherche pour permettre à l'utilisateur de trouver des tâches spécifiques.
+- Améliorez la sauvegarde des tâches en utilisant un format de données plus robuste comme JSON ou CSV.
+
+Ce projet vous permettra de mettre en pratique les concepts fondamentaux de la programmation en Python, 
+tels que la manipulation de données, les entrées/sorties, ainsi que la gestion des erreurs. 
+N'hésitez pas à personnaliser le projet et à ajouter des fonctionnalités supplémentaires pour le rendre encore plus intéressant et instructif !
