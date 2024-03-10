@@ -3,7 +3,7 @@
 
 ## Le cours complet :
 
-[![Accéder au cours](https://img.shields.io/badge/-Commencer%20avec%20DataCamp-green?style=for-the-badge&logo=datacamp)](https://universdesdonnees.github.io/Python-Introduction/cours/cours.html)
+[![Accéder au cours](https://img.shields.io/badge/-Commencer%20mon%20Cours-green?style=for-the-badge&logo=datacamp)](https://universdesdonnees.github.io/Python-Introduction/cours/cours.html)
 
 ## Table des matières📝
 ### 1. C’est quoi Python ?
