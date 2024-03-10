@@ -1,10 +1,11 @@
 | ![Langage de programmation Python](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1920px-Python_logo_and_wordmark.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation Python.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser Python, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus. |
 | --- | --- |
 
-## 👉 ICI : [Cours](https://universdesdonnees.github.io/Python-Introduction/cours/cours.html)👈
+## Le cours complet :
+
+[![Accéder au cours](https://img.shields.io/badge/-Commencer%20avec%20DataCamp-green?style=for-the-badge&logo=datacamp)](https://universdesdonnees.github.io/Python-Introduction/cours/cours.html)
 
 ## Table des matières📝
-
 ### 1. C’est quoi Python ?
 ### 2. Les Fondamentaux de Python
    - 2.1. Variables (types natifs) et opérations
@@ -65,7 +66,7 @@
 ### 7. Partenariat
 ### 8. Références
 
-### Exercices
+## Exercices
 
 Chaque section du cours est accompagnée d'exercices pratiques pour renforcer l'apprentissage. 
 
